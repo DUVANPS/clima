@@ -1,0 +1,81 @@
+
+
+body {
+    background-image: url('./components/mar.jpeg');
+    background-size: cover; /* Ajustar la imagen de fondo al tamaño de la ventana */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.arti {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%; /* Ajustar el ancho máximo del cuadro */
+}
+
+
+.nube {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 300;
+    color: rgb(253, 0, 0);
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+    align-self: flex-start; /* Alinear la imagen a la izquierda de ul */
+}
+
+button.btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
